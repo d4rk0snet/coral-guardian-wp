@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "846292af23a1437a20c096aae5cb0108",
+    "content-hash": "7384ae701561e7693438cd2fb4e06fe9",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -305,11 +305,17 @@
         },
         {
             "name": "d4rk0snet/coral-adoption",
-            "version": "dev-feat/entity",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
-                "url": "/home/gregory/Professionnel/Coral-Guardian/plugins/coral-guardian",
-                "reference": "48f15f0612696bea989426b8504348414f0f8873"
+                "url": "git@github.com:d4rk0snet/coral-adoption.git",
+                "reference": "bf38b0c2d4433062b2a400a8553461781b900941"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/d4rk0snet/coral-adoption/zipball/bf38b0c2d4433062b2a400a8553461781b900941",
+                "reference": "bf38b0c2d4433062b2a400a8553461781b900941",
+                "shasum": ""
             },
             "require": {
                 "hyperion/core": "dev-dev",
@@ -320,7 +326,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -334,7 +339,11 @@
                 }
             ],
             "description": "Plugin métier pour la gestion des adoptions au sein de l'association de préservation des coraux Coral-Guardian",
-            "time": "2021-11-18T19:20:27+00:00"
+            "support": {
+                "source": "https://github.com/d4rk0snet/coral-adoption/tree/dev",
+                "issues": "https://github.com/d4rk0snet/coral-adoption/issues"
+            },
+            "time": "2021-11-19T13:44:38+00:00"
         },
         {
             "name": "digilist/dependency-graph",
@@ -1514,8 +1523,14 @@
             "version": "dev-dev",
             "source": {
                 "type": "git",
-                "url": "/home/gregory/Professionnel/Coral-Guardian/plugins/Hyperion/core",
+                "url": "git@github.com:wp-hyperion/core.git",
                 "reference": "19fab2906abc72f52aaeaea96db39c3bdd70d9d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-hyperion/core/zipball/19fab2906abc72f52aaeaea96db39c3bdd70d9d9",
+                "reference": "19fab2906abc72f52aaeaea96db39c3bdd70d9d9",
+                "shasum": ""
             },
             "require": {
                 "digilist/dependency-graph": "^0.3.0",
@@ -1535,7 +1550,6 @@
             "require-dev": {
                 "phpmd/phpmd": "^2.9"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1549,6 +1563,10 @@
                 }
             ],
             "description": "Core of hyperion",
+            "support": {
+                "source": "https://github.com/wp-hyperion/core/tree/dev",
+                "issues": "https://github.com/wp-hyperion/core/issues"
+            },
             "time": "2021-11-18T15:30:49+00:00"
         },
         {
@@ -4495,12 +4513,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ab9b520247b62e785c6ae1eb43b2eacb171fcf4a"
+                "reference": "8a0da9e2c9a96425395e0af80bd3aece26576245"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ab9b520247b62e785c6ae1eb43b2eacb171fcf4a",
-                "reference": "ab9b520247b62e785c6ae1eb43b2eacb171fcf4a",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8a0da9e2c9a96425395e0af80bd3aece26576245",
+                "reference": "8a0da9e2c9a96425395e0af80bd3aece26576245",
                 "shasum": ""
             },
             "conflict": {
@@ -4584,7 +4602,7 @@
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
                 "ezyang/htmlpurifier": "<4.1.1",
-                "facade/ignition": "<2.4.2|>=2.5,<2.5.2",
+                "facade/ignition": "<1.16.15|>=2,<2.4.2|>=2.5,<2.5.2",
                 "feehi/cms": "<=2.1.1",
                 "feehi/feehicms": "<=0.1.3",
                 "firebase/php-jwt": "<2",
@@ -4636,7 +4654,7 @@
                 "kreait/firebase-php": ">=3.2,<3.8.1",
                 "la-haute-societe/tcpdf": "<6.2.22",
                 "laminas/laminas-http": "<2.14.2",
-                "laravel/framework": "<=8.70.2",
+                "laravel/framework": "<6.20.26|>=7,<7.30.5|>=8,<8.40",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
                 "lavalite/cms": "<=5.8",
                 "lcobucci/jwt": ">=3.4,<3.4.6|>=4,<4.0.4|>=4.1,<4.1.5",
@@ -4910,7 +4928,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-18T16:26:35+00:00"
+            "time": "2021-11-19T12:23:14+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
