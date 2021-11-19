@@ -31,11 +31,11 @@
     },
     {
       "type" : "vcs",
-      "url": "/home/gregory/Professionnel/Coral-Guardian/plugins/Hyperion/core"
+      "url": "git@github.com:wp-hyperion/core.git"
     },
     {
       "type" : "vcs",
-      "url": "/home/gregory/Professionnel/Coral-Guardian/plugins/coral-guardian"
+      "url": "git@github.com:d4rk0snet/coral-adoption.git"
     },
     {
       "type": "package",
@@ -64,8 +64,8 @@
     "roots/wordpress": "5.8.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "hyperion/core": "dev-feature/bugfix",
-    "d4rk0snet/coral-adoption": "dev-feature/init",
+    "hyperion/core": "dev-dev",
+    "d4rk0snet/coral-adoption": "dev-feat/entity",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*"
   },
   "require-dev": {
