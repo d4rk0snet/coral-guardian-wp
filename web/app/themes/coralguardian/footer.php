@@ -33,12 +33,10 @@
 		</div><!-- End .footer-container -->
 		
 		<div class="footer-bottom">
-			&copy; <a href="<?php bloginfo('siteurl'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> <?php echo date('Y'); ?>  - 
-			<a href="<?php bloginfo('siteurl'); ?>/mentions-legales-et-conditions-generales-dutilisation/">Mentions légales</a>
+			&copy; <a href="<?php bloginfo(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> <?php echo date('Y'); ?>  -
+			<a href="<?php bloginfo(); ?>/mentions-legales-et-conditions-generales-dutilisation/">Mentions légales</a>
 		</div>
 	</footer>
-
-
 
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
 	<script async="async" src="<?php echo get_template_directory_uri(); ?>/library/js/scripts.js"></script>

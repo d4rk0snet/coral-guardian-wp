@@ -1,5 +1,10 @@
 <?php
-
+add_action( 'rest_api_init', function () {
+	add_action( 'rest_pre_serve_request', function () {
+		header("Access-Control-Allow-Origin: *");
+		header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+	} );
+}, 15 );
 function bones_ahoy() {
 
 	//Allow editor style.
