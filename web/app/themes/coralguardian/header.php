@@ -5,6 +5,10 @@
 	<title><?php wp_title(''); ?></title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta property="og:url"         content="<?php site_url('/adopte-corail/');?>" />
+  <meta property="og:title"       content="Adoptez un corail"/>
+  <meta property="og:description" content="Adoptez un corail et agissez pour la biodiversité marine 🌊" />
+  <meta property="og:image"       content="<?php echo get_template_directory_uri(); ?>/library/img/share_social_networks.jpg" />
 	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/library/img/favicon.ico" />
 	<?php wp_head(); ?>
 	
