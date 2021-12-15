@@ -81,6 +81,8 @@ if (env('DATABASE_URL')) {
     Config::define('DB_HOST', isset($dsn->port) ? "{$dsn->host}:{$dsn->port}" : $dsn->host);
 }
 
+Config::define('DB_PREFIX', $table_prefix);
+
 /**
  * Authentication Unique Keys and Salts
  */
