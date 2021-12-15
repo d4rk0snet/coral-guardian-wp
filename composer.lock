@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17ebab820c3fe489014bb57594885291",
+    "content-hash": "65cbd89a4c01eeb3583d8e47e8dde541",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -309,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:d4rk0snet/coral-adoption.git",
-                "reference": "26ccecf6434b033b33062edb2c62481ea3222fc2"
+                "reference": "b7825b26185f9a689030fb106720d9eb4a788428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/d4rk0snet/coral-adoption/zipball/26ccecf6434b033b33062edb2c62481ea3222fc2",
-                "reference": "26ccecf6434b033b33062edb2c62481ea3222fc2",
+                "url": "https://api.github.com/repos/d4rk0snet/coral-adoption/zipball/b7825b26185f9a689030fb106720d9eb4a788428",
+                "reference": "b7825b26185f9a689030fb106720d9eb4a788428",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "source": "https://github.com/d4rk0snet/coral-adoption/tree/dev",
                 "issues": "https://github.com/d4rk0snet/coral-adoption/issues"
             },
-            "time": "2021-12-14T17:15:55+00:00"
+            "time": "2021-12-15T10:49:15+00:00"
         },
         {
             "name": "digilist/dependency-graph",
@@ -1531,12 +1531,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:wp-hyperion/core.git",
-                "reference": "5726ba5adc2115053f36020c7aa529ca6391a529"
+                "reference": "78642e9dad940691324cbcd7d1dfd382792eea74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-hyperion/core/zipball/5726ba5adc2115053f36020c7aa529ca6391a529",
-                "reference": "5726ba5adc2115053f36020c7aa529ca6391a529",
+                "url": "https://api.github.com/repos/wp-hyperion/core/zipball/78642e9dad940691324cbcd7d1dfd382792eea74",
+                "reference": "78642e9dad940691324cbcd7d1dfd382792eea74",
                 "shasum": ""
             },
             "require": {
@@ -1573,7 +1573,7 @@
                 "source": "https://github.com/wp-hyperion/core/tree/dev",
                 "issues": "https://github.com/wp-hyperion/core/issues"
             },
-            "time": "2021-12-14T17:01:06+00:00"
+            "time": "2021-12-15T10:45:10+00:00"
         },
         {
             "name": "jms/metadata",
@@ -4656,6 +4656,204 @@
                 }
             ],
             "time": "2021-12-12T23:22:04+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.5.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/cookie-law-info",
+            "version": "2.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cookie-law-info/",
+                "reference": "tags/2.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cookie-law-info.2.0.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cookie-law-info/"
+        },
+        {
+            "name": "wpackagist-plugin/imagify",
+            "version": "1.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/imagify/",
+                "reference": "tags/1.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/imagify.1.10.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/imagify/"
+        },
+        {
+            "name": "wpackagist-plugin/instagram-feed",
+            "version": "2.9.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/instagram-feed/",
+                "reference": "tags/2.9.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.2.9.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/instagram-feed/"
+        },
+        {
+            "name": "wpackagist-plugin/mailin",
+            "version": "3.1.24",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailin/",
+                "reference": "tags/3.1.24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailin.3.1.24.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailin/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "5.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/5.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-google-recaptcha",
+            "version": "3.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-google-recaptcha/",
+                "reference": "tags/3.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-google-recaptcha.3.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-google-recaptcha/"
+        },
+        {
+            "name": "wpackagist-plugin/social-warfare",
+            "version": "4.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/social-warfare/",
+                "reference": "tags/4.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/social-warfare.4.3.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/social-warfare/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "17.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/17.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-sentry-integration",
+            "version": "4.10.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
+                "reference": "tags/4.10.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.4.10.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-user-avatar",
+            "version": "3.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-user-avatar/",
+                "reference": "tags/3.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-user-avatar.3.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-user-avatar/"
         }
     ],
     "packages-dev": [
@@ -5538,12 +5736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "24af7780733bcdb3a22c3377e4318aa9c1945cc5"
+                "reference": "92e217f7d613827eb7545586b3aafc616e878022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/24af7780733bcdb3a22c3377e4318aa9c1945cc5",
-                "reference": "24af7780733bcdb3a22c3377e4318aa9c1945cc5",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/92e217f7d613827eb7545586b3aafc616e878022",
+                "reference": "92e217f7d613827eb7545586b3aafc616e878022",
                 "shasum": ""
             },
             "conflict": {
@@ -5672,6 +5870,7 @@
                 "in2code/femanager": "<5.5.1|>=6,<6.3.1",
                 "intelliants/subrion": "<=4.2.1",
                 "ivankristianto/phpwhois": "<=4.3",
+                "jackalope/jackalope-doctrine-dbal": "<1.7.4",
                 "james-heinrich/getid3": "<1.9.21",
                 "joomla/archive": "<1.1.10",
                 "joomla/session": "<1.3.1",
@@ -5960,7 +6159,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-14T15:17:22+00:00"
+            "time": "2021-12-14T21:11:48+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -7183,14 +7382,14 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "hyperion/core": 20,
         "d4rk0snet/coral-adoption": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "ext-json": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
