@@ -90,17 +90,23 @@ add_filter('admin_footer_text', 'remove_footer_admin');
 
 
 /* Empêcher l'accès à l'API pour les users non connectés */
+/*
+ * EDIT Benoit 16/03/2022
+ *
+ * Il ne faut pas gérer ça de façon globale, certaines route rest custom ont besoin d'être public
+ * Il faut ajouter des permissions pour chaque route via 'permission_callback'
+ */
 
-function secure_api( $result ) {
-	if ( ! empty( $result ) ) {
-	    return $result;
-	}
-	if ( ! is_user_logged_in() ) {
-	    return new WP_Error( 'rest_not_logged_in', 'You are not currently logged in.', array( 'status' => 401 ) );
-	}
-	return $result;
-}
-add_filter('rest_authentication_errors', 'secure_api');
+//function secure_api( $result ) {
+//	if ( ! empty( $result ) ) {
+//	    return $result;
+//	}
+//	if ( ! is_user_logged_in() ) {
+//	    return new WP_Error( 'rest_not_logged_in', 'You are not currently logged in.', array( 'status' => 401 ) );
+//	}
+//	return $result;
+//}
+//add_filter('rest_authentication_errors', 'secure_api');
 
 /* Désactiver XML-RPC */
 
