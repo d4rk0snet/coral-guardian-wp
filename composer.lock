@@ -236,12 +236,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:d4rk0snet/coral-adoption.git",
-                "reference": "11cd9a109909e6aeefb7dd1191e5086c63ec5d97"
+                "reference": "c8249bc4f9116303b2cb0d06919d989b74bfd9d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/d4rk0snet/coral-adoption/zipball/11cd9a109909e6aeefb7dd1191e5086c63ec5d97",
-                "reference": "11cd9a109909e6aeefb7dd1191e5086c63ec5d97",
+                "url": "https://api.github.com/repos/d4rk0snet/coral-adoption/zipball/c8249bc4f9116303b2cb0d06919d989b74bfd9d5",
+                "reference": "c8249bc4f9116303b2cb0d06919d989b74bfd9d5",
                 "shasum": ""
             },
             "require": {
@@ -275,7 +275,7 @@
                 "source": "https://github.com/d4rk0snet/coral-adoption/tree/dev",
                 "issues": "https://github.com/d4rk0snet/coral-adoption/issues"
             },
-            "time": "2022-03-15T10:28:09+00:00"
+            "time": "2022-03-17T11:14:10+00:00"
         },
         {
             "name": "digilist/dependency-graph",
