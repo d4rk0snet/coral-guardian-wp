@@ -1507,12 +1507,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:wp-hyperion/core.git",
-                "reference": "c6feed39c966b3616a0962da4db5bfad138e6658"
+                "reference": "d0f9b0a8d3f2b8d04dea2f0459cd802a4ecc1b22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-hyperion/core/zipball/c6feed39c966b3616a0962da4db5bfad138e6658",
-                "reference": "c6feed39c966b3616a0962da4db5bfad138e6658",
+                "url": "https://api.github.com/repos/wp-hyperion/core/zipball/d0f9b0a8d3f2b8d04dea2f0459cd802a4ecc1b22",
+                "reference": "d0f9b0a8d3f2b8d04dea2f0459cd802a4ecc1b22",
                 "shasum": ""
             },
             "require": {
@@ -1549,7 +1549,7 @@
                 "source": "https://github.com/wp-hyperion/core/tree/dev",
                 "issues": "https://github.com/wp-hyperion/core/issues"
             },
-            "time": "2021-12-16T10:46:40+00:00"
+            "time": "2022-03-24T15:50:16+00:00"
         },
         {
             "name": "jms/metadata",
