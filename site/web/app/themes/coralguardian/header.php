@@ -19,6 +19,7 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-28782686-1');
+      gtag('config', 'AW-962379492');
 	</script>
 	
 	<!-- Facebook Pixel Code -->
