@@ -64,7 +64,7 @@
     "roots/wordpress": "5.8.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "d4rk0snet/coral-adoption": "dev-dev",
+    "d4rk0snet/coral-adoption": "dev-feature/mails",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*",
     "ext-json": "*",
     "wpackagist-plugin/contact-form-7": "^5.5",
@@ -77,7 +77,8 @@
     "wpackagist-plugin/social-warfare": "^4.3",
     "wpackagist-plugin/wordpress-seo": "^17.8",
     "wpackagist-plugin/wp-sentry-integration": "^4.10",
-    "wpackagist-plugin/wp-user-avatar": "^3.2"
+    "wpackagist-plugin/wp-user-avatar": "^3.2",
+    "blackfire/php-sdk": "^1.29"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
@@ -87,7 +88,12 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "ffraenz/private-composer-installer": true,
+      "roots/wordpress-core-installer": true
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
