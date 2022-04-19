@@ -2,3 +2,5 @@
 .idea
 data
 etc/nginx/default.conf
+conf/php/*
+!conf/php/*.example

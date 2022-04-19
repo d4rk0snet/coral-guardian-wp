@@ -24,6 +24,8 @@ services:
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
             - "./site:/var/www/html"
+            - "./conf/php:/root/.composer"
+
     myadmin:
         image: phpmyadmin/phpmyadmin
         container_name: phpmyadmin_cg
